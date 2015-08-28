@@ -1,0 +1,5 @@
+YEAR = input("输入年份:")
+if (YEAR % 4 == 0 and YEAR % 100 != 0) or YEAR % 400 == 0:    
+    print "闰年"
+else:
+    print "非闰年"
