@@ -1,0 +1,6 @@
+
+一个数的平方根的平方还是本数->这个数可以完全平方
+for e in range(10000):
+  if (int(math.sqrt(e+100))*int(math.sqrt(e+100))==e+100):
+    if (int(math.sqrt(e+268))*int(math.sqrt(e+268)) == e+268):
+      print e
